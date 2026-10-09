@@ -1,0 +1,247 @@
+{
+  "site": {
+    "url": "https://ramanmaharjan5.com.np/",
+    "title": "Raman Maharjan",
+    "description": "Independent designer and frontend developer crafting distinctive digital experiences, considered interfaces, and accessible websites.",
+    "locale": "Nep",
+    "themeColor": "#F3F0E9"
+  },
+  "profile": {
+    "name": "Raman Maharjan",
+    "role": "Frontend Developer | UI Designer | Digital Marketing",
+    "location": "Based in Kathmandu · Working worldwide",
+    "availability": "Available for Freelance on development and design projects",
+    "eyebrow": "DESIGN / DEVELOPMENT / MANAGEMENT",
+    "headline": "Digital work with a human point of view.",
+    "intro": "I design and build thoughtful websites and digital products where clarity meets character. Every decision - from the first sketch to the last line of code - serves a purpose.",
+    "about": "My practice sits between design direction and frontend engineering. I care about typography, systems, performance, and the small details that make digital experiences feel unmistakably considered.",
+    "photo": "/profile/Raman.png",
+    "cvUrl": "/cv/ramancv.pdf",
+    "cvLabel": "Download CV"
+  },
+  "projects": [
+    {
+      "slug": "eventraa",
+      "number": "01",
+      "title": "Eventraa.co",
+      "category": "SAAS Project",
+      "year": "2026",
+      "summary": "A unified event management platform built to simplify event operations, attendee engagement, and on-site coordination.",
+      "description": "A full-stack platform designed to streamline the entire event lifecycle. Built around role-based dashboards, centralized event management, attendee registration, QR-based check-in, and actionable analytics, Eventraa connects organizers and staff through a structured, intuitive digital workspace.",
+      "services": [
+        "Product Development",
+        "UI/UX Design",
+        "Full-Stack Development",
+        "Event Management Automation"
+      ],
+      "stack": ["React", "JavaScript", "Node.js", "Express.js", "MySQL"],
+      "image": "/projects/eventraa.png",
+      "imageAlt": "Eventraa event management SaaS platform featuring event dashboards, attendee management, and QR-based check-in",
+      "featured": true,
+      "externalUrl": "https://eventraa.co/",
+      "results": "A centralized event management solution that brings event planning, team coordination, attendee administration, QR-based check-in, and event analytics into one platform."
+    },
+
+    {
+      "slug": "heatha",
+      "number": "02",
+      "title": "HEATHA",
+      "category": "Social Organization",
+      "year": "2026",
+      "summary": "A digital platform promoting sustainable agriculture, eco-tourism, and community health awareness.",
+      "description": "A purpose-driven digital experience for High Efficiency Agro Tourism and Health Awareness (HEATHA), a social organization dedicated to sustainable development through education, innovation, and community awareness. Designed to communicate its mission, showcase its initiatives, and engage communities around sustainable agriculture, eco-tourism, and public health, the platform serves as a digital hub for its programs and social impact.",
+      "services": [
+        "Website Design",
+        "Frontend Development",
+        "Digital Storytelling",
+        "Social Impact Communication"
+      ],
+      "stack": ["React", "JavaScript", "Node.js", "Express.js", "MySQL"],
+      "image": "/projects/heatha.png",
+      "imageAlt": "HEATHA social organization website representing sustainable agriculture, eco-tourism, and community health awareness",
+      "featured": true,
+      "externalUrl": "https://heatha.org/",
+      "results": "A centralized digital presence to communicate the organization's mission, highlight sustainability initiatives, and raise awareness of agriculture, eco-tourism, and community health."
+    },
+    {
+      "slug": "adsjobs",
+      "number": "03",
+      "title": "ads!jobs",
+      "category": "Job Portal",
+      "year": "2025",
+      "summary": "A streamlined recruitment platform connecting skilled professionals with employers across Nepal.",
+      "description": "A full-stack recruitment platform developed to simplify the hiring process for both job seekers and employers. Featuring role-based accounts, professional profiles, CV and portfolio uploads, job listings, and one-click applications, ads!jobs creates a centralized hiring experience. Dedicated employer tools support vacancy publishing, applicant management, and candidate evaluation, helping organizations connect with relevant talent more efficiently.",
+      "services": [
+        "Product Development",
+        "UI/UX Design",
+        "Full-Stack Development",
+        "Recruitment Workflow Automation"
+      ],
+      "stack": ["React", "TypeScript", "Node.js", "Express.js", "MySQL"],
+      "image": "/projects/jobs.png",
+      "imageAlt": "ads!jobs recruitment SaaS platform connecting job seekers and employers through job listings and applicant management",
+      "featured": true,
+      "externalUrl": "https://adsjobs.co/",
+      "results": "A centralized recruitment platform that streamlines job discovery, CV submissions, vacancy management, and candidate applications through dedicated job seeker and employer workflows."
+    },
+    {
+      "slug": "one-fork",
+      "number": "04",
+      "title": "One Fork",
+      "category": "UI/UX Design",
+      "year": "2023",
+      "summary": "A refined restaurant website experience designed to bring culinary identity, menu discovery, and table reservations together.",
+      "description": "A user-centered UI/UX design project for One Fork, an Australian restaurant focused on fresh food and memorable dining experiences. The design brings the restaurant's culinary identity to life through engaging visual presentation, structured menu exploration, and intuitive navigation. Key customer journeys include discovering dishes, exploring catering options, browsing restaurant events, and making table reservations, creating a cohesive digital experience that connects the brand with its customers.",
+      "services": [
+        "UI/UX Design",
+        "Website Design",
+        "User Journey Mapping",
+        "Information Architecture",
+        "Responsive Interface Design"
+      ],
+      "stack": [
+        "Figma",
+        "Adobe Photoshop"
+      ],
+      "image": "/projects/onefork.png",
+      "imageAlt": "One Fork restaurant website UI/UX design showcasing menu discovery, dining experiences, and reservations",
+      "featured": false,
+      "externalUrl": "https://www.onefork.com.au/",
+      "results": "A cohesive restaurant website experience designed to strengthen brand presentation, simplify menu discovery, and make key customer actions such as reservations and catering inquiries easier to navigate."
+    },
+    {
+      "slug": "nepal-land-housing-construction-expo",
+      "number": "05",
+      "title": "NLHDA Expo 2026",
+      "category": "Campaign Website",
+      "year": "2026",
+      "summary": "A comprehensive digital platform connecting Nepal's real estate, housing, and construction industries through a major industry expo.",
+      "description": "A digital platform for the 9th Nepal Land, Housing & Construction Expo 2026, designed to connect property developers, construction professionals, financial institutions, exhibitors, and visitors. The experience brings together event information, exhibitor discovery, industry schedules, interactive expo mapping, and visitor registration in one accessible interface. With clear navigation and structured event information, the platform helps visitors plan their experience while providing exhibitors with a digital presence to showcase products, services, and innovations shaping Nepal's built environment.",
+      "services": [
+        "Website Design",
+        "UI/UX Design",
+        "Freelance Development",
+        "Event Information Architecture",
+        "Digital Visitor Experience"
+      ],
+      "stack": [
+        "React",
+        "JavaScript",
+        "Figma"
+      ],
+      "image": "/projects/nlhda.png",
+      "imageAlt": "Nepal Land Housing and Construction Expo 2026 digital platform showcasing the event, exhibitors, visitor registration, and expo information",
+      "featured": false,
+      "externalUrl": "https://nlhdanepal.org.np/",
+      "results": "A centralized digital destination for expo promotion, visitor registration, exhibitor discovery, event scheduling, and venue navigation, helping attendees prepare for and navigate the four-day industry exhibition."
+    },
+    {
+      "slug": "tashya-and-co",
+      "number": "06",
+      "title": "Tashya & Co.",
+      "category": "Brand Website",
+      "year": "2026",
+      "summary": "A modern beauty brand experience showcasing everyday haircare, styling, and beauty essentials with seamless online shopping integration.",
+      "description": "A brand-focused digital experience for Tashya & Co., designed to communicate its identity through refined visuals, product storytelling, and a clean, contemporary interface. The website showcases curated beauty and haircare collections, highlights customer testimonials, and connects visitors directly to product listings on Jeevee for shopping. With an emphasis on visual consistency, intuitive navigation, and product discovery, the experience bridges brand awareness and online purchasing.",
+      "services": [
+        "UI/UX Design",
+        "Website Design",
+        "Freelance Development",
+        "Brand Presentation"
+      ],
+      "stack": [
+        "React",
+        "JavaScript",
+        "Figma"
+      ],
+      "image": "/projects/tashya.png",
+      "imageAlt": "Tashya & Co. beauty brand website showcasing haircare products, beauty collections, and a modern editorial design",
+      "featured": true,
+      "externalUrl": "https://tashya.co/",
+      "results": "A dedicated digital storefront that strengthens brand presentation, showcases haircare and beauty products, and directs customers to Jeevee for convenient online purchasing."
+    }
+  ],
+
+
+
+
+  "experience": [
+    {
+      "role": "Digital Officer and IT Management",
+      "company": "ads!Digital",
+      "location": "Bafal, Kathmandu",
+      "start": "2025",
+      "end": "Present",
+      "description": "Manage digital campaigns, oversee IT infrastructure, and lead a team of developers deliver innovative solutions."
+    },
+    {
+      "role": "Frontend Developer | UI/UX Designer ",
+      "company": "Reflex IT Solution",
+      "location": "Chyasal, Lalitpur",
+      "start": "2024",
+      "end": "2025",
+      "description": "Started as an intern frontend developer and UI/UX designer, contributing to various web development projects and enhancing user experiences."
+    }
+  ],
+  "education": [
+    {
+      "degree": "BSc in Information Technology",
+      "institution": "LBEF College, Asia Pacific University",
+      "location": "Maitidevi, Kathmandu",
+      "start": "2022",
+      "end": "2025",
+      "description": "Learned various aspects of information technology, including programming, web development, and software engineering."
+    }
+  ],
+  "skills": [
+    {
+      "group": "Design",
+      "items": ["Graphic Design", "UI / UX design", "Typography", "Prototyping"]
+    },
+    {
+      "group": "Development",
+      "items": [
+        "Next.js",
+        "React",
+        "Node.js",
+        "TypeScript",
+        "JavaScript",
+        "Tailwind CSS",
+        "Bootstrap"
+      ]
+    },
+    {
+      "group": "Process",
+      "items": [
+        "Research",
+        "Creative direction",
+        "Content strategy",
+        "Collaboration",
+        "Documentation"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Professional UX Certificate",
+      "issuer": "Example Institute",
+      "year": "2024",
+      "url": ""
+    }
+  ],
+  "socialAccounts": [
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/raman-maharjan-513745285/"
+    },
+    { "label": "GitHub", "url": "https://github.com/Raman159" },
+    { "label": "Instagram", "url": "https://www.instagram.com/ramn.n96/" }
+  ],
+  "contact": {
+    "email": "ramanmaharjan159@gmail.com.com",
+    "phone": "",
+    "location": "Kathmandu, Nepal",
+    "heading": "Have something good in mind?",
+    "message": " I am available for freelance work and collaborations. Let's create something great together!"
+  }
+}
