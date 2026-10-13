@@ -19,6 +19,7 @@ export default function Header() {
           <a href="/#work">Work</a>
           <a href="/#about">About</a>
           <a href="/#experience">Experience</a>
+          <a href="/#certifications">Certifications</a>
           <a href="/#contact">Contact</a>
         </nav>
       </div>

@@ -37,6 +37,11 @@ body { background: #fff; color: #1f2933; font-family: Arial, Helvetica, sans-ser
 .classic-list-item { display: grid; gap: .75rem; border-bottom: 1px solid #e1e4e7; padding-block: 1.25rem; }
 .classic-list-item h4 { font-size: 1rem; font-weight: 700; }
 .classic-list-item > span { font-size: .75rem; color: #68737d; white-space: nowrap; }
+.certification-card { display: flex; min-height: 160px; flex-direction: column; align-items: flex-start; border: 1px solid #d6dade; border-radius: 4px; padding: 1.25rem; background: #fff; }
+.certification-card h3 { font-size: 1rem; font-weight: 700; line-height: 1.5; }
+.certification-card p { margin-top: .45rem; color: #68737d; font-size: .85rem; }
+.certification-card > span { margin-top: .75rem; color: #46515a; font-size: .75rem; }
+.certification-card a { margin-top: auto; padding-top: 1rem; color: #315c8c; font-size: .8rem; font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
 .skill-tag { border: 1px solid #d3d8dc; border-radius: 2px; padding: .35rem .55rem; background: #f7f8f8; font-size: .75rem; color: #46515a; }
 .classic-footer { background: #222b32; color: #fff; }
 .classic-footer h2 { font-size: 1.1rem; font-weight: 700; }

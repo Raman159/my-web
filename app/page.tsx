@@ -89,6 +89,30 @@ export default function Home() {
         </div>
       </section>
 
+      <section id="certifications" className="classic-section border-t border-line bg-white">
+        <div className="classic-container py-16 md:py-20">
+          <div className="classic-heading">
+            <p>Credentials</p>
+            <h2>Certifications</h2>
+            <span>Courses and workshops that support my ongoing learning.</span>
+          </div>
+          <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {data.certifications.map((certification) => (
+              <article key={certification.name} className="certification-card">
+                <h3>{certification.name}</h3>
+                <p>{certification.issuer}</p>
+                {certification.year && <span>{certification.year}</span>}
+                {certification.url && (
+                  <a href={certification.url} target="_blank" rel="noreferrer">
+                    View certificate
+                  </a>
+                )}
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section id="contact" className="classic-section border-t border-line bg-white">
         <div className="classic-container py-16 text-center md:py-20">
           <div className="classic-heading"><p>Contact</p><h2>{contact.heading}</h2><span className="mx-auto block max-w-xl">{contact.message}</span></div>
