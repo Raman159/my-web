@@ -223,9 +223,33 @@
   ],
   "certifications": [
     {
-      "name": "Professional UX Certificate",
-      "issuer": "Example Institute",
+      "name": "AWS Academy Cloud Foundations",
+      "issuer": "AWS Academy",
+      "year": "2023",
+      "url": ""
+    },
+    {
+      "name": "Machine Learning and AI Workshop (16 hours)",
+      "issuer": "LBEF Workshop",
+      "year": "",
+      "url": ""
+    },
+    {
+      "name": "Social Media Marketing & Management",
+      "issuer": "IIDE - The Digital Institute",
       "year": "2024",
+      "url": ""
+    },
+    {
+      "name": "Instagram Marketing Strategy",
+      "issuer": "IIDE - The Digital Institute",
+      "year": "2024",
+      "url": ""
+    },
+    {
+      "name": "IT Course, Right Choice Academy",
+      "issuer": "Right Choice Academy",
+      "year": "2021–2022",
       "url": ""
     }
   ],
