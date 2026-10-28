@@ -1,4 +1,5 @@
-import { data } from "@/lib/data";
+import Link from 'next/link';
+import { data } from '@/lib/data';
 
 export default function Footer() {
   return (
@@ -15,13 +16,16 @@ export default function Footer() {
           <h3>Navigation</h3>
           <ul>
             <li>
-              <a href="/#work">Work</a>
+              <Link href="/projects/">Work</Link>
             </li>
             <li>
               <a href="/#about">About</a>
             </li>
             <li>
               <a href="/#experience">Experience</a>
+            </li>
+            <li>
+              <a href="/#certifications">Certifications</a>
             </li>
             <li>
               <a href="/#contact">Contact</a>
@@ -53,12 +57,8 @@ export default function Footer() {
       <div className="border-t border-white/15">
         <div className="classic-container flex flex-col justify-between gap-3 py-5 text-xs text-white/55 sm:flex-row">
           <span>
-            © {new Date().getFullYear()} {data.profile.name}. All rights
-            reserved.
+            © {new Date().getFullYear()} {data.profile.name}. All rights reserved.
           </span>
-          {/* <a href="#top" className="hover:text-white">
-            Back to top ↑
-          </a> */}
         </div>
       </div>
     </footer>

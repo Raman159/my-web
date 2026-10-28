@@ -1,5 +1,5 @@
-import Link from "next/link";
-import { data } from "@/lib/data";
+import Link from 'next/link';
+import { data } from '@/lib/data';
 
 export default function Header() {
   return (
@@ -16,7 +16,7 @@ export default function Header() {
           aria-label="Primary"
           className="flex flex-wrap items-center justify-end gap-5 text-sm font-semibold text-forest md:gap-8"
         >
-          <a href="/#work">Work</a>
+          <Link href="/projects/">Work</Link>
           <a href="/#about">About</a>
           <a href="/#experience">Experience</a>
           <a href="/#certifications">Certifications</a>

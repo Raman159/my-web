@@ -1,21 +1,24 @@
 {
   "site": {
-    "url": "https://ramanmaharjan5.com.np/",
-    "title": "Raman Maharjan",
-    "description": "Independent designer and frontend developer crafting distinctive digital experiences, considered interfaces, and accessible websites.",
-    "locale": "Nep",
-    "themeColor": "#F3F0E9"
+    "url": "https://www.ramanmaharjan5.com.np/",
+    "title": "Raman Maharjan | Frontend Developer & UI Designer, Kathmandu",
+    "description": "Freelance frontend developer and UI/UX designer in Kathmandu, Nepal. Raman Maharjan builds websites for startups, NGOs, and brands using React and Next.js.",
+    "locale": "en_US",
+    "themeColor": "#F3F0E9",
+    "ogImage": "/og-image.png"
   },
   "profile": {
     "name": "Raman Maharjan",
-    "role": "Frontend Developer | UI Designer | Digital Marketing",
+    "role": "Frontend Developer & UI Designer",
+    "jobTitle": "Frontend Developer & UI Designer",
     "location": "Based in Kathmandu · Working worldwide",
-    "availability": "Available for Freelance on development and design projects",
+    "availability": "Available for freelance development and design projects",
     "eyebrow": "DESIGN / DEVELOPMENT / MANAGEMENT",
-    "headline": "Digital work with a human point of view.",
-    "intro": "I design and build thoughtful websites and digital products where clarity meets character. Every decision - from the first sketch to the last line of code - serves a purpose.",
+    "headline": "Frontend Developer & UI Designer based in Kathmandu",
+    "intro": "I design and build thoughtful websites and digital products where clarity meets character. Every decision — from the first sketch to the last line of code — serves a purpose.",
     "about": "My practice sits between design direction and frontend engineering. I care about typography, systems, performance, and the small details that make digital experiences feel unmistakably considered.",
-    "photo": "/profile/Raman.png",
+    "services": "I help startups, NGOs, and brands in Nepal launch websites and digital products that are clear, fast, and easy to use. Typical work includes UI/UX design, frontend development, and full-stack builds with React, Next.js, Node.js, Express, and MySQL — from event platforms and campaign sites to brand storefronts and hiring tools.",
+    "photo": "/profile/Raman.webp",
     "cvUrl": "/cv/ramancv.pdf",
     "cvLabel": "Download CV"
   },
@@ -24,10 +27,12 @@
       "slug": "eventraa",
       "number": "01",
       "title": "Eventraa.co",
-      "category": "SAAS Project",
+      "category": "SaaS Project",
       "year": "2026",
       "summary": "A unified event management platform built to simplify event operations, attendee engagement, and on-site coordination.",
       "description": "A full-stack platform designed to streamline the entire event lifecycle. Built around role-based dashboards, centralized event management, attendee registration, QR-based check-in, and actionable analytics, Eventraa connects organizers and staff through a structured, intuitive digital workspace.",
+      "problem": "Event teams were splitting planning, registrations, check-in, and staff coordination across spreadsheets and disconnected tools, which made on-site operations slow and easy to get wrong.",
+      "role": "I led product development, UI/UX design, and full-stack engineering — from information architecture and interface design through implementation of dashboards, registration, and QR check-in.",
       "services": [
         "Product Development",
         "UI/UX Design",
@@ -35,13 +40,14 @@
         "Event Management Automation"
       ],
       "stack": ["React", "JavaScript", "Node.js", "Express.js", "MySQL"],
-      "image": "/projects/eventraa.png",
+      "image": "/projects/eventraa.webp",
       "imageAlt": "Eventraa event management SaaS platform featuring event dashboards, attendee management, and QR-based check-in",
       "featured": true,
       "externalUrl": "https://eventraa.co/",
-      "results": "A centralized event management solution that brings event planning, team coordination, attendee administration, QR-based check-in, and event analytics into one platform."
+      "results": "Organizers now run planning, team coordination, attendee administration, QR-based check-in, and analytics from one platform instead of a patchwork of tools.",
+      "seoTitle": "Eventraa Case Study | Event Management SaaS",
+      "seoDescription": "Case study of Eventraa, an event management platform with QR check-in, dashboards, and attendee tools. Designed and built by Raman Maharjan."
     },
-
     {
       "slug": "heatha",
       "number": "02",
@@ -50,6 +56,8 @@
       "year": "2026",
       "summary": "A digital platform promoting sustainable agriculture, eco-tourism, and community health awareness.",
       "description": "A purpose-driven digital experience for High Efficiency Agro Tourism and Health Awareness (HEATHA), a social organization dedicated to sustainable development through education, innovation, and community awareness. Designed to communicate its mission, showcase its initiatives, and engage communities around sustainable agriculture, eco-tourism, and public health, the platform serves as a digital hub for its programs and social impact.",
+      "problem": "HEATHA needed a public website that could explain its mission and programmes without burying visitors in institutional language, so communities and partners could actually find and share the work.",
+      "role": "I designed and developed the website, shaping the visual story, page structure, and frontend so the organisation’s agriculture, eco-tourism, and health programmes are easy to explore.",
       "services": [
         "Website Design",
         "Frontend Development",
@@ -57,11 +65,13 @@
         "Social Impact Communication"
       ],
       "stack": ["React", "JavaScript", "Node.js", "Express.js", "MySQL"],
-      "image": "/projects/heatha.png",
+      "image": "/projects/heatha.webp",
       "imageAlt": "HEATHA social organization website representing sustainable agriculture, eco-tourism, and community health awareness",
       "featured": true,
       "externalUrl": "https://heatha.org/",
-      "results": "A centralized digital presence to communicate the organization's mission, highlight sustainability initiatives, and raise awareness of agriculture, eco-tourism, and community health."
+      "results": "HEATHA now has a central digital home that communicates its mission, highlights sustainability initiatives, and raises awareness of agriculture, eco-tourism, and community health.",
+      "seoTitle": "HEATHA Website Case Study | NGO Digital Platform",
+      "seoDescription": "Case study of the HEATHA website: a Nepal NGO platform for sustainable agriculture, eco-tourism, and community health. Design and frontend by Raman Maharjan."
     },
     {
       "slug": "adsjobs",
@@ -71,6 +81,8 @@
       "year": "2025",
       "summary": "A streamlined recruitment platform connecting skilled professionals with employers across Nepal.",
       "description": "A full-stack recruitment platform developed to simplify the hiring process for both job seekers and employers. Featuring role-based accounts, professional profiles, CV and portfolio uploads, job listings, and one-click applications, ads!jobs creates a centralized hiring experience. Dedicated employer tools support vacancy publishing, applicant management, and candidate evaluation, helping organizations connect with relevant talent more efficiently.",
+      "problem": "Job seekers and employers in Nepal were using fragmented channels — social posts, email, and informal referrals — with no shared place to list roles, submit CVs, or track applications.",
+      "role": "I worked on product development, UI/UX, and full-stack engineering for job-seeker and employer workflows, including profiles, listings, and applicant management.",
       "services": [
         "Product Development",
         "UI/UX Design",
@@ -78,11 +90,13 @@
         "Recruitment Workflow Automation"
       ],
       "stack": ["React", "TypeScript", "Node.js", "Express.js", "MySQL"],
-      "image": "/projects/jobs.png",
+      "image": "/projects/jobs.webp",
       "imageAlt": "ads!jobs recruitment SaaS platform connecting job seekers and employers through job listings and applicant management",
       "featured": true,
       "externalUrl": "https://adsjobs.co/",
-      "results": "A centralized recruitment platform that streamlines job discovery, CV submissions, vacancy management, and candidate applications through dedicated job seeker and employer workflows."
+      "results": "ads!jobs now centralises job discovery, CV submissions, vacancy management, and applications through dedicated job-seeker and employer accounts.",
+      "seoTitle": "ads!jobs Case Study | Recruitment Platform Nepal",
+      "seoDescription": "Case study of ads!jobs, a Nepal job portal with profiles, listings, and employer tools. Product, UI, and full-stack development by Raman Maharjan."
     },
     {
       "slug": "one-fork",
@@ -92,6 +106,8 @@
       "year": "2023",
       "summary": "A refined restaurant website experience designed to bring culinary identity, menu discovery, and table reservations together.",
       "description": "A user-centered UI/UX design project for One Fork, an Australian restaurant focused on fresh food and memorable dining experiences. The design brings the restaurant's culinary identity to life through engaging visual presentation, structured menu exploration, and intuitive navigation. Key customer journeys include discovering dishes, exploring catering options, browsing restaurant events, and making table reservations, creating a cohesive digital experience that connects the brand with its customers.",
+      "problem": "The restaurant needed a digital presence that felt like the dining room: distinctive, easy to scan, and clear about how to book a table, explore the menu, or ask about catering.",
+      "role": "I led UI/UX design, information architecture, and responsive interface design in Figma, mapping the journeys for menus, events, catering, and reservations.",
       "services": [
         "UI/UX Design",
         "Website Design",
@@ -99,15 +115,14 @@
         "Information Architecture",
         "Responsive Interface Design"
       ],
-      "stack": [
-        "Figma",
-        "Adobe Photoshop"
-      ],
-      "image": "/projects/onefork.png",
+      "stack": ["Figma", "Adobe Photoshop"],
+      "image": "/projects/onefork.webp",
       "imageAlt": "One Fork restaurant website UI/UX design showcasing menu discovery, dining experiences, and reservations",
       "featured": false,
       "externalUrl": "https://www.onefork.com.au/",
-      "results": "A cohesive restaurant website experience designed to strengthen brand presentation, simplify menu discovery, and make key customer actions such as reservations and catering inquiries easier to navigate."
+      "results": "The design gives One Fork a cohesive website experience that strengthens brand presentation and makes reservations and catering inquiries easier to complete.",
+      "seoTitle": "One Fork UI/UX Case Study | Restaurant Website",
+      "seoDescription": "UI/UX case study for One Fork, a restaurant website covering menus, catering, events, and reservations. Designed by Raman Maharjan in Figma."
     },
     {
       "slug": "nepal-land-housing-construction-expo",
@@ -117,6 +132,8 @@
       "year": "2026",
       "summary": "A comprehensive digital platform connecting Nepal's real estate, housing, and construction industries through a major industry expo.",
       "description": "A digital platform for the 9th Nepal Land, Housing & Construction Expo 2026, designed to connect property developers, construction professionals, financial institutions, exhibitors, and visitors. The experience brings together event information, exhibitor discovery, industry schedules, interactive expo mapping, and visitor registration in one accessible interface. With clear navigation and structured event information, the platform helps visitors plan their experience while providing exhibitors with a digital presence to showcase products, services, and innovations shaping Nepal's built environment.",
+      "problem": "A four-day industry expo needed one public destination for dates, exhibitors, schedules, venue maps, and visitor registration so attendees were not hunting across PDFs and social posts.",
+      "role": "As a freelance designer and developer I designed the UI in Figma and built the React frontend, including event information architecture and visitor-facing flows.",
       "services": [
         "Website Design",
         "UI/UX Design",
@@ -124,16 +141,14 @@
         "Event Information Architecture",
         "Digital Visitor Experience"
       ],
-      "stack": [
-        "React",
-        "JavaScript",
-        "Figma"
-      ],
-      "image": "/projects/nlhda.png",
+      "stack": ["React", "JavaScript", "Figma"],
+      "image": "/projects/nlhda.webp",
       "imageAlt": "Nepal Land Housing and Construction Expo 2026 digital platform showcasing the event, exhibitors, visitor registration, and expo information",
       "featured": false,
       "externalUrl": "https://nlhdanepal.org.np/",
-      "results": "A centralized digital destination for expo promotion, visitor registration, exhibitor discovery, event scheduling, and venue navigation, helping attendees prepare for and navigate the four-day industry exhibition."
+      "results": "The site became the central place for expo promotion, visitor registration, exhibitor discovery, scheduling, and venue navigation ahead of the four-day exhibition.",
+      "seoTitle": "NLHDA Expo 2026 Case Study | Event Website Nepal",
+      "seoDescription": "Campaign website for Nepal Land, Housing & Construction Expo 2026 with exhibitors, registration, and maps. Freelance design and React development by Raman Maharjan."
     },
     {
       "slug": "tashya-and-co",
@@ -143,28 +158,24 @@
       "year": "2026",
       "summary": "A modern beauty brand experience showcasing everyday haircare, styling, and beauty essentials with seamless online shopping integration.",
       "description": "A brand-focused digital experience for Tashya & Co., designed to communicate its identity through refined visuals, product storytelling, and a clean, contemporary interface. The website showcases curated beauty and haircare collections, highlights customer testimonials, and connects visitors directly to product listings on Jeevee for shopping. With an emphasis on visual consistency, intuitive navigation, and product discovery, the experience bridges brand awareness and online purchasing.",
+      "problem": "The brand needed a dedicated website that could tell a haircare story with editorial polish, then send shoppers to Jeevee without losing the look and feel of Tashya & Co.",
+      "role": "I designed the brand presentation in Figma and developed the React frontend, covering collections, testimonials, and the path from product discovery to purchase.",
       "services": [
         "UI/UX Design",
         "Website Design",
         "Freelance Development",
         "Brand Presentation"
       ],
-      "stack": [
-        "React",
-        "JavaScript",
-        "Figma"
-      ],
-      "image": "/projects/tashya.png",
+      "stack": ["React", "JavaScript", "Figma"],
+      "image": "/projects/tashya.webp",
       "imageAlt": "Tashya & Co. beauty brand website showcasing haircare products, beauty collections, and a modern editorial design",
       "featured": true,
       "externalUrl": "https://tashya.co/",
-      "results": "A dedicated digital storefront that strengthens brand presentation, showcases haircare and beauty products, and directs customers to Jeevee for convenient online purchasing."
+      "results": "Tashya & Co. now has a digital storefront that presents the brand clearly, showcases haircare collections, and directs customers to Jeevee for checkout.",
+      "seoTitle": "Tashya & Co. Case Study | Beauty Brand Website",
+      "seoDescription": "Case study of the Tashya & Co. beauty brand website: product storytelling, collections, and a path to buy on Jeevee. Design and React development by Raman Maharjan."
     }
   ],
-
-
-
-
   "experience": [
     {
       "role": "Digital Officer and IT Management",
@@ -172,15 +183,15 @@
       "location": "Bafal, Kathmandu",
       "start": "2025",
       "end": "Present",
-      "description": "Manage digital campaigns, oversee IT infrastructure, and lead a team of developers deliver innovative solutions."
+      "description": "Manage digital campaigns, oversee IT infrastructure, and lead a team of developers delivering innovative solutions."
     },
     {
-      "role": "Frontend Developer | UI/UX Designer ",
+      "role": "Frontend Developer | UI/UX Designer",
       "company": "Reflex IT Solution",
       "location": "Chyasal, Lalitpur",
       "start": "2024",
       "end": "2025",
-      "description": "Started as an intern frontend developer and UI/UX designer, contributing to various web development projects and enhancing user experiences."
+      "description": "Started as an intern frontend developer and UI/UX designer, contributing to web development projects and enhancing user experiences."
     }
   ],
   "education": [
@@ -261,11 +272,25 @@
     { "label": "GitHub", "url": "https://github.com/Raman159" },
     { "label": "Instagram", "url": "https://www.instagram.com/ramn.n96/" }
   ],
+  "faq": [
+    {
+      "question": "What does a freelance frontend developer in Kathmandu typically help with?",
+      "answer": "I design and build websites and web apps — UI/UX, React or Next.js frontends, and full-stack work with Node.js when a project needs it. Most clients are startups, NGOs, and brands that need a clear, fast site."
+    },
+    {
+      "question": "Do you work with clients outside Nepal?",
+      "answer": "Yes. I am based in Kathmandu and take freelance design and development projects for clients in Nepal and internationally."
+    },
+    {
+      "question": "Which tools and technologies do you use?",
+      "answer": "Figma for interface design, and React, Next.js, TypeScript, JavaScript, Node.js, Express, and MySQL for development, with Tailwind CSS or Bootstrap for layout."
+    }
+  ],
   "contact": {
-    "email": "ramanmaharjan159@gmail.com.com",
+    "email": "ramanmaharjan159@gmail.com",
     "phone": "",
     "location": "Kathmandu, Nepal",
     "heading": "Have something good in mind?",
-    "message": " I am available for freelance work and collaborations. Let's create something great together!"
+    "message": "I am available for freelance work and collaborations. Let's create something great together!"
   }
 }

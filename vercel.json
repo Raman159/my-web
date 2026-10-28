@@ -1,0 +1,10 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "ramanmaharjan5.com.np" }],
+      "destination": "https://www.ramanmaharjan5.com.np/:path*",
+      "permanent": true
+    }
+  ]
+}

@@ -1,33 +1,46 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import { Download, Mail } from 'lucide-react';
 import { data, projects } from '@/lib/data';
 import ProjectCard from '@/components/project-card';
 
 export default function Home() {
-  const { profile, contact } = data;
+  const { profile, contact, faq } = data;
+  const featured = projects.filter((project) => project.featured);
+  const faqLd = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faq.map((item) => ({
+      '@type': 'Question',
+      name: item.question,
+      acceptedAnswer: { '@type': 'Answer', text: item.answer },
+    })),
+  };
 
   return (
     <main id="main">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd).replace(/</g, '\\u003c') }} />
       <section className="classic-section border-b border-line bg-white">
         <div className="classic-container grid items-center gap-10 py-14 md:grid-cols-[220px_1fr] md:py-20">
           <div className="profile-photo-slot">
             {profile.photo ? (
-              <Image src={profile.photo} alt={`${profile.name} profile photo`} width={440} height={520} priority className="h-full w-full object-cover" />
+              <Image src={profile.photo} alt={`${profile.name}, frontend developer and UI designer in Kathmandu`} width={440} height={520} priority className="h-full w-full object-cover" />
             ) : (
               <div className="profile-photo-placeholder" aria-label="Profile photo placeholder">
                 <div className="profile-avatar" aria-hidden="true"><span /><strong /></div>
                 <p>Profile photo</p>
-                <small>Add the image path in portfolio.json</small>
+                <small>Add the image</small>
               </div>
             )}
           </div>
           <div>
-            <p className="mb-3 text-sm font-bold uppercase tracking-[.14em] text-muted">{profile.role}</p>
-            <h1 className="text-4xl font-bold leading-tight tracking-tight text-ink md:text-6xl">{profile.name}</h1>
+            <p className="mb-3 text-sm font-bold uppercase tracking-[.14em] text-muted">{profile.name}</p>
+            <h1 className="text-4xl font-bold leading-tight tracking-tight text-ink md:text-5xl">{profile.headline}</h1>
             <p className="mt-5 max-w-2xl text-lg leading-8 text-forest">{profile.intro}</p>
+            <p className="mt-4 max-w-2xl text-base leading-7 text-forest">{profile.services}</p>
             <p className="mt-4 text-sm text-muted">{profile.location}</p>
             <div className="mt-8 flex flex-wrap gap-3">
-              <a className="classic-button classic-button-primary" href="#work">View my work</a>
+              <Link className="classic-button classic-button-primary" href="/projects/">View my work</Link>
               <a className="classic-button" href={`mailto:${contact.email}`}><Mail size={16} /> Contact me</a>
               <a className="classic-button" href={profile.cvUrl} download><Download size={16} /> {profile.cvLabel}</a>
             </div>
@@ -37,9 +50,16 @@ export default function Home() {
 
       <section id="work" className="classic-section bg-[#f6f6f6]">
         <div className="classic-container py-16 md:py-20">
-          <div className="classic-heading"><p>Portfolio</p><h2>Selected work</h2><span>A selection of recent design and development projects.</span></div>
+          <div className="classic-heading">
+            <p>Portfolio</p>
+            <h2>Selected work</h2>
+            <span>Recent websites and products for organisations in Nepal and beyond.</span>
+          </div>
           <div className="mt-10 grid gap-7 md:grid-cols-2 lg:grid-cols-3">
-            {projects.filter((project) => project.featured).map((project) => <ProjectCard key={project.slug} project={project} />)}
+            {featured.map((project) => <ProjectCard key={project.slug} project={project} />)}
+          </div>
+          <div className="mt-10 text-center">
+            <Link className="classic-button classic-button-primary" href="/projects/">See all projects</Link>
           </div>
         </div>
       </section>
@@ -107,6 +127,23 @@ export default function Home() {
                     View certificate
                   </a>
                 )}
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section id="faq" className="classic-section border-t border-line bg-[#f6f6f6]">
+        <div className="classic-container py-16 md:py-20">
+          <div className="classic-heading">
+            <p>FAQ</p>
+            <h2>Working together</h2>
+          </div>
+          <div className="mx-auto mt-10 max-w-3xl space-y-6">
+            {faq.map((item) => (
+              <article key={item.question} className="classic-panel">
+                <h3 className="text-lg font-bold text-ink">{item.question}</h3>
+                <p className="mt-3 text-base leading-7 text-forest">{item.answer}</p>
               </article>
             ))}
           </div>

@@ -1,0 +1,6 @@
+RewriteEngine On
+
+# Prefer HTTPS + www so canonical, sitemap, and the live host stay aligned.
+RewriteCond %{HTTPS} !=on [OR]
+RewriteCond %{HTTP_HOST} !^www\.ramanmaharjan5\.com\.np$ [NC]
+RewriteRule ^ https://www.ramanmaharjan5.com.np%{REQUEST_URI} [L,R=301]
